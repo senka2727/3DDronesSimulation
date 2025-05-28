@@ -129,7 +129,7 @@ public class Drone : MonoBehaviour
 
     public void SetDrawPath(bool isOn){
         drawPathLine = isOn;
-        PathLine.gameObject.SetActive(isOn);
+        PathLine.enabled = isOn;
     }
 
     void DrawPath(){
